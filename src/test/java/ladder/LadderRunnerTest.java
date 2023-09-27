@@ -2,7 +2,6 @@ package ladder;
 
 import ladder.creator.LadderCreator;
 import ladder.creator.RandomLadderCreator;
-import ladder.creator.StaticLadderCreator;
 import org.junit.jupiter.api.Test;
 
 public class LadderRunnerTest {
@@ -15,6 +14,6 @@ public class LadderRunnerTest {
         LadderCreator ladderCreator = new RandomLadderCreator(numberOfRow, numberOfPerson);
         LadderGame ladderGame = new LadderGame(ladderCreator);
 
-        ladderGame.RunLadderGame();
+        ladderGame.runLadderGame();
     }
 }

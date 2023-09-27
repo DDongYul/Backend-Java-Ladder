@@ -15,7 +15,7 @@ public class LadderRunner {
         return position.getValue();
     }
 
-    public void PrintLadderGameResult() {
+    public void printLadderGameResult() {
         for (int i = 1; i <rows[0].size(); i++) {
             System.out.println(i + "번째 사람의 결과 -> " + run(Position.of(i)));
         }
